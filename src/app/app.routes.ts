@@ -2,17 +2,17 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'home',
-    loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
+    path: 'contacts',
+    loadComponent: () => import('./contacts/contacts.page').then((m) => m.ContactsPage),
   },
   {
-    path: 'message/:id',
+    path: 'contact-details/:id',
     loadComponent: () =>
       import('./view-message/view-message.page').then((m) => m.ViewMessagePage),
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'contacts',
     pathMatch: 'full',
   },
 ];

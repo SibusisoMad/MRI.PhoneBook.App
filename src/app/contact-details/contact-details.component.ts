@@ -8,8 +8,8 @@ import { Message } from '../services/data.service';
 
 @Component({
   selector: 'app-message',
-  templateUrl: './message.component.html',
-  styleUrls: ['./message.component.scss'],
+  templateUrl: './contact-details.component.html',
+  styleUrls: ['./contact-details.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink, IonItem, IonLabel, IonNote, IonIcon],
 })

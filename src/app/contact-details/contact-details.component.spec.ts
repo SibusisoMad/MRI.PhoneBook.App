@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { ViewMessagePage } from '../view-message/view-message.page';
 
-import { MessageComponent } from './message.component';
+import { MessageComponent } from './contact-details.component';
 
 describe('MessageComponent', () => {
   let component: MessageComponent;
